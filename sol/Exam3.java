@@ -34,9 +34,6 @@ class 고무오리 extends 오리 {
         System.out.println("고무오리가 만들어집니다. 고무오리는 고무 날개를 가지고 태어납니다.");
         a날개 = new 고무날개();
     }
-    void 날다() {
-        a날개.사용();
-    }
 }
 class 날개 {
     void 사용(){}
